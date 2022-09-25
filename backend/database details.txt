@@ -1,0 +1,156 @@
+CREATE TABLE users(
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    username varchar(255) not null,
+     fullname varchar(255) not null,
+     email varchar(255) not null,
+     pwd varchar(255) not null,
+     country varchar(255) not null,
+     phone varchar(255) not null,
+      btcaddr varchar(255) not null,	
+     totalbal int(255) not null,
+     totalwith int(255) not null,
+     lastdeposit int(255) not null,
+     earn varchar(255) not null,
+     lastwith int(255) not null,
+     registerdate varchar(255) not null,	
+     refpaid int(255) not null,
+    current varchar(255) not null,
+    bonus varchar(255) not null,
+    verified varchar(255) not null,
+
+
+
+    vkey varchar(255) not null,   
+     btc int(255) not null,
+     eth int(255) not null,
+     bnb int(255) not null,
+     doge varchar(255) not null,
+     solana int(255) not null,
+     lite varchar(255) not null,    
+     usdt int(255) not null,
+    ada varchar(255) not null,
+   shiba varchar(255) not null
+ 
+);
+
+
+
+CREATE TABLE depositrequests(
+   id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    username varchar(255) not null,
+     amount int(255) not null,
+    dateofdep varchar(255) not null,
+    statusofdep varchar(255) not null,
+    depositid varchar(255) not null,
+    totalbal int(255) not null,
+    usdemail varchar(255) not null,
+    transtype varchar(255) not null
+
+
+);
+
+
+CREATE TABLE withdawalrequest(
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    username varchar(255) not null,
+     btcaddr varchar(255) not null,
+     amount int(255) not null,
+     dateofwith varchar(255) not null,
+     statusofwith varchar(255) not null,
+     earning int(255) not null,
+     withid varchar(255) not null,
+     usdemail varchar(255) not null,
+      paytype varchar(255) not null
+    
+
+);
+
+
+CREATE TABLE proofpay(
+       id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+     dateup varchar(255) not null,
+     imageup varchar(255) not null,
+     username varchar(255) not null,
+     proofid varchar(255) not null
+);
+
+
+
+
+
+CREATE TABLE admin(
+       id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+     usd varchar(255) not null,
+     pwd varchar(255) not null
+
+);
+
+
+INSERT INTO admin (usd,pwd) VALUES ('admin','admin3376');
+
+
+
+CREATE TABLE investment(
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    username varchar(255) not null,
+     amount int(255) not null,
+     dateinv varchar(255) not null,
+     statusofinv varchar(255) not null,
+      investid varchar(255) not null,
+     usdemail varchar(255) not null,
+     earning varchar(255) not null,
+    loanbal int(255) not null,
+     plan varchar(255) not null
+
+
+);
+
+
+CREATE TABLE reftable(
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    username varchar(255) not null,
+     email varchar(255) not null,
+     fullname varchar(255) not null,
+     phone varchar(255) not null,
+     linkrefid varchar(255) not null,
+     amountpaid  varchar(255) not null
+
+);
+
+
+
+CREATE TABLE Kyc(
+    id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+     dateup varchar(255) not null,
+     idcard varchar(255) not null,
+     Selfie varchar(255) not null,
+     username varchar(255) not null,
+     kid varchar(255) not null
+     
+
+);
+
+
+CREATE TABLE loanrequest(
+id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+     username varchar(255) not null,
+     loanbal int(255) not null,
+     lastloan varchar(255) not null,
+     amount varchar(255) not null,
+     plan varchar(255) not null,
+     dateofrequest varchar(255) not null,
+     statusofrequest varchar(255) not null,
+     loanid int(255) not null,
+     usdemail varchar(255) not null
+
+
+);
+
+
+
+
+
+
+
+
+
