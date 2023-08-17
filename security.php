@@ -7,8 +7,7 @@
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-<!-- Document Meta
-    ============================================= -->
+<!-- Document Meta ============================================= -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!--IE Compatibility Meta-->
@@ -17,8 +16,7 @@
 <meta name="description" content="Safe and Swift">
 <link href="assets/images/favicon/favicon.png" rel="icon">
 
-<!-- Fonts
-    ============================================= -->
+<!-- Fonts ============================================= -->
 <link href="http://fonts.googleapis.com/css?family=Exo+2:300i,400,400i,500,500i,600,600i,700%7CRoboto:300i,400,400i,500,500i,700" rel="stylesheet" type="text/css">
 
 <!-- Stylesheets
