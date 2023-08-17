@@ -21,8 +21,7 @@
     ============================================= -->
 <link href="http://fonts.googleapis.com/css?family=Exo+2:300i,400,400i,500,500i,600,600i,700%7CRoboto:300i,400,400i,500,500i,700" rel="stylesheet" type="text/css">
 
-<!-- Stylesheets
-    ============================================= -->
+<!-- Stylesheets ============================================= -->
 <link href="assets/css/external.css" rel="stylesheet">
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
