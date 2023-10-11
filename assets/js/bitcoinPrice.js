@@ -16,7 +16,6 @@ $(function() {
                 .addClass("bitcoin-list") // add a class
                 .append(spanPrice)
                 .append(spanMktcap)
-
             /* Bitcoing EUR */
             var spanPrice2 = $('<span/>')
                 .attr('id', index + "price")
