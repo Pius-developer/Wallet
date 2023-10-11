@@ -113,9 +113,7 @@
 						<li class="">
 							<a href="faq.php">Faqs</a>
 			              
-						</li>			
-
-				
+						</li>					
 			
 
      </ul>
