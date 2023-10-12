@@ -1,8 +1,5 @@
 
-
 <!DOCTYPE html>
-
-
 <html dir="ltr" lang="en-US">
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
